@@ -9,16 +9,17 @@
     <link type="stylesheet" href="css/style.css"/>
 
   </head>
+
   <body>
     <header>
       <nav> <a href="index.html">Inicio &#9823</a></nav>
+      <h1>Mis Apuntes HTML </h1>
     </header>
 
     <main>
       
     <section>
-      
-      <h1>Imagenes</h1>  
+      <h2>Imagenes</h2>  
       <p>
       Losy (con pérdida) y Lossless (sin pérdida)
       Tamaño máximo de una imagen es:: 70KB
@@ -28,13 +29,37 @@
         <li> <b>Tiny PNG :</b>   Comprime el tamaño de un imagen, para hacerla más ligera.</li>
         <li><b>Verefix :</b> Se usa para fotos tomadas desde celular , elimina los metadatos para reducir su tamaño.</li>
       </ul>
-      
+    </section>
+    
+    <section>
       <h3>Herramientas para descargar imagenes</h3>
       <h4>Pexels.com</h4>
-      <img src="./pics/small.jpg" alt=" Esta es una imagen de abeja -peke"/>
+      
+      <figure>
+        <img src="./pics/small.jpg" alt=" Esta es una imagen de abeja -peke"/>
+        <br/>
+        <figurecaption>Esta imagen es de una abejita</figurecaption>
+      </figure>
+    </section>
+
+    <section>
+      <h3>Herramienta para descargar Videos</h3>
+      <h4>Pexels.com</h4>
+      <p>
+        Usamos la etiqueta <b>video</b> con los atributo <i> controls , preload ="auto" y dentro de esta etiqueta
+          usamos la etiqueta <b>source</b> con el atributo src para poder colocar diferentes extensiones de video y 
+          dependiendo de cada navegador eligira la compatible, además que  determinamos unos tiempos para iniciar y finalizar el videl
+        </i>
+      </p>
+      <video  controls preload="auto">
+        <source src="./video/mar.mp4#t=0,3" />
+        <source src="./video/mar.m4v#t=0,3" />
+      </video>
 
     </section>
-  
+    
+
+
     </main>
 
   </body>

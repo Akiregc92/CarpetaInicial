@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="description" content="Esta pagina contiene un formulario"/>
+    <meta name="viewport" content="width:device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <title>Formulario</title>
+    </head>
+
+  <body>
+    <header>
+      <a href="./index.html"> Inicio -> </a>
+       
+    </header>
+    <main>
+      <h1><i>Formulario </i></h1>
+      <form action="">
+        <label for="nombre">
+          <span> Cúal es tu Nombre ? </span>
+          <input type="text" id="nombre" placeholder="Tu Nombre" name="nombre" />
+        </label>
+        <br/>
+        <label for="fecha">
+          <span>En qué fecha iniciaste tus estudios profesionales?</span>
+          <input type="date" id="fecha" name="fecha" />
+        </label>
+        <br/>
+        <label form="horario">
+          <span>En qué horario usualmente estudias? </span>
+          <input type="time" id="horarios" name="horario"/>
+        </label>
+         <br/>
+
+         <label form="calendario">
+           <span> Elige la fecha que te gustaría viajar </span><br/>
+           <input type="datetime-local" id="calendario" name="calendario"  />
+         </label>
+
+         <input type="submit" value="Enviar Ahora!"/>
+
+      </form>
+
+      <h1>Formulario con atributos Autocomolete y Require</h1>
+      <form action="">
+        <label form="nombre">
+          <span>Ingresa tu Nombre </span>
+          <input id="nombre" name="nombre" type="text" autocomplete="name" required/>
+        </label>
+        
+        
+        <label form="pais">
+          <span>Ingresa tu pais </span>
+          <input id="pais" name="pais" type="text" autocomplete="country" required/>
+        </label>
+
+        
+        <label form="email">
+          <span>Ingresa tu email </span>
+          <input id="email" name="email" type="email" autocomplete="email" required/>
+        </label>
+
+        <p>Tambien podemos hacer Listas de Varias Opciones con las etiquetas <b>select (option) y input list"" (datalist).</b></p>
+        <br/>
+        <p>Ejemplo de Input List :</p>
+
+        <input list="cursos"/>
+        <datalist id="cursos">
+          <option value="javascirpt"></option>
+          <option value="css3"></option>
+          <option value="html5"></option>
+          <option value="java"></option>
+        </datalist>
+
+        <br/>
+        <input type="submit" value="Enviar x2"/>
+        <h1>Tipos de Botones </h1>
+        <p></p>
+        Tenemos dos tipos de botones <b>input type=" submit </b> y <b>button </b>
+        </p>
+        <span>input </span>
+        <input type="submit" value="input"/>
+        Este boton se usa en los formularios<br/>
+
+        <span>Button </span>
+        <button type="submit">Button</button>
+        Este boton se usa en cualquier parte del proyecto, porque es fácil personalizarlo.
+
+
+
+      </form>
+
+
+
+    </main>
+  </body>
+
+  <footer>
+
+  </footer>
+</html>

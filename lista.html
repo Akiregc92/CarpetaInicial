@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, inictial-scale=1.0">
     <meta name="description" content="Esta página contiene la lista del super"/>
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- <style type="text/css">
+      @media handheld
+      body{width:98%;font-family:Verdana;font-size:16px;} 
+      </style>
+       -->
+       <style>
+         @media screen and (min-width:300px) and (max-width:800px)
+          {
+        body{font-size:0.8em;}
+        sidebar{display:none;}
+         }
+       </style>
+
     <title>Lista del super</title>
 
   </head>
@@ -20,35 +34,132 @@
       </nav>
     </header>
     <main>
+     <section class="titulo">
+
       <h1> My List of SuperMarket ! </h1>
-      <section>
+     
+     </section>
+    <section>
         <ul>
           <li>Frutas </li>
           <ol>
-            <li><a href="https://www.google.com/search?safe=active&sxsrf=ALeKk01oA6Om4QcAkh2gklwCGHCVqKUrpA%3A1611713512467&ei=6MsQYJSKHIym5wKSyomwAg&q=recetas+con+manzanas&oq=recetas+con+manzanas&gs_lcp=CgZwc3ktYWIQAzICCAAyAggAMgIIADICCAAyAggAMgYIABAHEB4yBggAEAcQHjICCAAyAggAMgIIADoECAAQRzoECAAQDVDeHFjGNGCTO2gAcAJ4AIABhQOIAboSkgEHMC44LjMuMZgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab&ved=0ahUKEwiUno_bhLvuAhUM01kKHRJlAiYQ4dUDCA0&uact=5">Manzana</a></li>
-            <li><a href="#">Manzana</a></li>
-            <li><a href="#">Manzana</a></li>
+            <li> 
+              <figure>
+                <img src="./pics/apple.jpg" alt="apple" />
+                <figurecaption>
+                  <a href="https://www.google.com/search?safe=active&sxsrf=ALeKk01oA6Om4QcAkh2gklwCGHCVqKUrpA%3A1611713512467&ei=6MsQYJSKHIym5wKSyomwAg&q=recetas+con+manzanas&oq=recetas+con+manzanas&gs_lcp=CgZwc3ktYWIQAzICCAAyAggAMgIIADICCAAyAggAMgYIABAHEB4yBggAEAcQHjICCAAyAggAMgIIADoECAAQRzoECAAQDVDeHFjGNGCTO2gAcAJ4AIABhQOIAboSkgEHMC44LjMuMZgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab&ved=0ahUKEwiUno_bhLvuAhUM01kKHRJlAiYQ4dUDCA0&uact=5">Manzana</a></li>
+            
+                </figurecaption>
+              </figure>
+              
+            <li> 
+              <figure>
+                <img src="./pics/strawberry.jpg" alt="Strawberry" />
+                <figurecaption>
+                  <a href="#">Fresa</a>
+                 </figurecaption>
+              </figure>
+            </li>
+
+            
+            <li> 
+              <figure>
+                <img src="./pics/pear.jpg" alt="pear" />
+                <figurecaption>
+                  <a href="#">Pera</a>
+                 </figurecaption>
+              </figure>
+            </li>
+
           </ol>
           
           <li>Carnes </li>
           <ol>
-            <li><a href="#">Pollo</a></li>
-            <li><a href="#">Cerdo</a></li>
-            <li><a href="#">Res</a></li>
-          </ol>
+            <li> 
+              <figure>
+                <img src="./pics/chicken.jpg" alt="chicken" />
+                <figurecaption>
+                  <a href="#">Pollo</a>
+                 </figurecaption>
+              </figure>
+            </li>
+              
+            <li> 
+              <figure>
+                <img src="./pics/pork.jpg" alt="pork" />
+                <figurecaption>
+                  <a href="#">Cerdo</a>
+                 </figurecaption>
+              </figure>
+            </li>
 
+            
+            <li> 
+              <figure>
+                <img src="./pics/beef.jpg" alt="beef" />
+                <figurecaption>
+                  <a href="#">Carne de Res</a>
+                 </figurecaption>
+              </figure>
+            </li>
+
+          </ol>
+          
           
           <li>Verduras </li>
           <ol>
-            <li><a href="#">Zanahoria</a></li>
-            <li><a href="#">Habichuela</a></li>
-            <li><a href="#">Garbanzo</a></li>
+            
+            <li> 
+              <figure>
+                <img src="./pics/carrot.jpg" alt="carrot" />
+                <figurecaption>
+                  <a href="#">Zanahoria</a>
+                 </figurecaption>
+              </figure>
+            </li>
+
+            <li> 
+              <figure>
+                <img src="./pics/tomato.jpg" alt="tomato" />
+                <figurecaption>
+                  <a href="#">Tomates</a>
+                 </figurecaption>
+              </figure>
+            </li>
+
+
+            <li> 
+              <figure>
+                <img src="./pics/cob.jpg" alt="cob" />
+                <figurecaption>
+                  <a href="#">Mazorca</a>
+                 </figurecaption>
+              </figure>
+            </li>
           </ol>
           
         </ul>
 
-
       </section>
+
+      <section class="formulario">
+        <form for="">
+          <label form="nombre">
+            <span>Cual es tu Nombre ? </span>
+            <input type="text" name="nombre" id="nombre" autocomplete="name" />
+          </label>
+          <label form="correo">
+            <span>Cual es tu Correo ? </span>
+            <input type="text" name="correo" id="correo" autocomplete="email" />
+          </label>
+          <label form="pais">
+            <span>Cual es tu País ? </span>
+            <input type="text" name="pais" id="pais" autocomplete="country" />
+          </label>
+
+        </form>
+      </section>
+
 
 
     </main>

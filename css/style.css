@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color:antiquewhite;
+      
+      }
+
+      ol li b {
+        color:blue;
+      }
+
+
+.titulo{
+  display: flex;
+  justify-content: center;
+  height: 20%;
+  width: 100%;
+  background:linear-gradient(pink,white,purple);
+  margin-bottom: 10%;
+}
+
+.titulo:hover{
+  color:red;
+}
+h1{
+ font-size: 35px;
+ font-family: -apple-system; 
+}
+
+img{
+  width:100px;
+  height:100px;
+}
+
+figure{
+  display: flex;
+  flex-direction: column;
+}
+
+
+ul{
+  display:flex;
+  flex-direction: row;
+} 
+
+main{
+  display:flex;
+  flex-direction: column;
+  width: 90%;
+  height:90%;
+  align-items:center;
+  border: 2px solid grey;
+  }
+
+
+/*Selector de Clase*/
+
+.subtitulo{
+  color:rebeccapurple;
+}
+
+/*Selector de ID*/
+
+#subtitulo2{
+  color:pink;
+  font-size: 35px;
+  font-family: cursive;
+}
+
+label{
+  display:flex;
+  flex-direction: column;
+ background: linear-gradient(rgb(196, 204, 204),white,pink ); 
+ margin-bottom: 10px;
+}
